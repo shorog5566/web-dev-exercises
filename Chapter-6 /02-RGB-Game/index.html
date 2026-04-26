@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RGB Game</title>      <----- The Game name ---->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Guess the Color</h2>    <-------- Choose the color ------>
+
+<p id="rgbText">RGB(0,0,0)</p>
+
+<div id="colors">
+  <div class="box" onclick="check(this)"></div>
+  <div class="box" onclick="check(this)"></div>
+  <div class="box" onclick="check(this)"></div>
+</div>
+
+<p id="msg"></p>
+
+<button onclick="start()">New Game</button>    <------ You can try again ---->
+
+<script src="script.js"></script>
+
+</body>
+</html>
