@@ -1,0 +1,29 @@
+/* The Page style */
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* The Navbar */
+.navbar {
+    background-color: black;
+    padding: 10px;
+}
+
+/* The Links */
+.navbar a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* The Button style */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
