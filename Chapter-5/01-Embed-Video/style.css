@@ -1,0 +1,10 @@
+body {
+    /* I making the body flex */
+    display: flex;
+    /* The center horizontally */
+    justify-content: center;
+    /* The center vertically */
+    align-items: center;
+    /* The full screen height */
+    height: 90vh;
+}
