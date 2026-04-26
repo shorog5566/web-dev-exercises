@@ -1,0 +1,36 @@
+/* the css style */
+body {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* the inputs styling */
+input {
+  padding: 5px;
+  margin: 5px;
+}
+
+/* when i clicking on the input field */
+input:focus {
+  border: 2px solid blue;
+}
+
+/* the button styling */
+button {
+  padding: 6px 15px;
+  background-color: gray;
+  color: white;
+  border: none;
+}
+
+/* when the mouse is over the button */
+button:hover {
+  background-color: black;
+}
+
+/* result section */
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+}
