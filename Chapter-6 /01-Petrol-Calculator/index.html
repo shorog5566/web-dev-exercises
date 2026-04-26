@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gas Calculator</title>
+    <style>
+        /* The basic styling */
+        body {
+            font-family: sans-serif;
+            padding: 30px;
+            background-color: #f4f4f4;
+        }
+        /* i making inputs on new lines */
+        input {
+            display: block;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Petrol Calculator</h1>
+
+    <label>Price:</label>
+    <input type="number" id="p" value="1.72">
+
+    <label>How many liters:</label>
+    <input type="number" id="l" value="0">
+
+    <button onclick="doMath()">Calculate Cost</button>
+
+    <h3 id="res">Total: 0</h3>
+
+    <script>
+        // function to do the math
+        function doMath() {
+            var price = document.getElementById('p').value;
+            var liters = document.getElementById('l').value;
+            
+            // multiplication
+            var total = price * liters;
+            
+            // show result
+            document.getElementById('res').innerHTML = "Total Cost: " + total;
+        }
+    </script>
+
+</body>
+</html>
