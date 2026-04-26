@@ -1,0 +1,45 @@
+/* The Body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* The Header */
+header {
+    background-color: #17072b;
+    color: white;
+    padding: 20px;
+    font-family: Tahoma;
+}
+
+/* The Navigation */
+nav {
+    background-color: #172d67;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* The Main */
+main {
+    padding: 20px;
+}
+
+/* The Images */
+img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+/* The Footer */
+footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
